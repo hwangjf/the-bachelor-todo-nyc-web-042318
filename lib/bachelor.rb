@@ -54,4 +54,4 @@
 #   return (tot_age / data[season].length)
 # end
 
-data["season 12"][]
+data["season 12"][0]["age"]
