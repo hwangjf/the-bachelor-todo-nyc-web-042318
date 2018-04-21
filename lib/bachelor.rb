@@ -44,12 +44,12 @@ def get_occupation(data, hometown)
   end
 end
 
-def get_average_age_for_season(data, season)
-  tot_age = 0
-  data.each do |season, contestant|
-    contestant.each do |contestant|
-      tot_age += contestant["age"].to_i
-    end
-  end
-  return (tot_age / data[season].length)
-end
+# def get_average_age_for_season(data, season)
+#   tot_age = 0
+#   data.each do |season, contestant|
+#     contestant.each do |contestant|
+#       tot_age += contestant["age"].to_i
+#     end
+#   end
+#   return (tot_age / data[season].length)
+# end
