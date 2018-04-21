@@ -52,5 +52,7 @@ def get_average_age_for_season(data, season)
       tot_age += z
     end
   end
-  return (tot_age / data[season].length)
+  puts tot_age
+  puts data[season].length
+  # return (tot_age / data[season].length)
 end
